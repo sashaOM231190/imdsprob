@@ -34,6 +34,8 @@ Probe the IMDS endpoint via:
 
 ## Usage
 
+[Download imdsprob](https://github.com/sashaOM231190/imdsprob/releases/tag/v1.0.0)
+
 IMDSProb.exe --req 10 --timeint 1000 --mode mic --identity sys --probtype Both --nettrace
 
 | Parameter         | Description                                                                |        |                                                    |
