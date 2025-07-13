@@ -43,7 +43,7 @@ IMDSProb.exe --req 10 --timeint 1000 --mode mic --identity sys --probtype Both -
 | `--mode mic`      | Use `ManagedIdentityCredential` for probing                                |        |                                                    |
 | `--identity sys`  | Use system-assigned managed identity (`sys` or `user`)                     |        |                                                    |
 | `--clientId <id>` | Client ID of user-assigned identity (required if `--identity user` is set) |        |                                                    |
-| `--probtype <SDK|Direct|Both>`|Select probe type: Azure SDK, Direct HTTP, or both              |        |                                                    |
+| `--probtype <SDK,Direct,Both>`|Select probe type: Azure SDK, Direct HTTP, or both              |        |                                                    |
 | `--nettrace`      | Enable network trace logging                                               |        |                                                    |
 | `--logdir <path>` | Directory to store logs and network trace                                  |        |                                                    |
 
