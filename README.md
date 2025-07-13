@@ -6,31 +6,31 @@ IMDSProb is a cross-platform probing and diagnostics tool for Azure Instance Met
 # Features
 Probe the IMDS endpoint via:
 
-Azure SDK (ManagedIdentityCredential)
+- Azure SDK (ManagedIdentityCredential)
 
-Direct HTTP call with proxy bypass
+- Direct HTTP call with proxy bypass
 
-Collect statistics:
+- Collect statistics:
 
-Min, Max, Avg latency
+- Min, Max, Avg latency
 
-Total requests
+- Total requests
 
-Slowest request and timestamp
+- Slowest request and timestamp
 
-Supports:
+## Supports:
 
-System-assigned and User-assigned Managed Identity
+- System-assigned and User-assigned Managed Identity
 
-Command-line parameterization
+- Command-line parameterization
 
-Real-time cancellation via Ctrl+C
+- Real-time cancellation via Ctrl+C
 
-Optional network tracing:
+- Optional network tracing:
 
-Windows: Generates NetworkTrace.etl
+- Windows: Generates NetworkTrace.etl
 
-Linux: Generates NetworkTrace.pcapng
+- Linux: Generates NetworkTrace.pcapng
 
 ## Usage
 
